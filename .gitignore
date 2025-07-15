@@ -1,0 +1,74 @@
+# ===========================
+# Force LF line endings
+# ===========================
+* text=auto eol=lf
+
+# ===========================
+# Julia
+# ===========================
+.julia/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===========================
+# Jupyter + IPython
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Data and model artifacts
+# ===========================
+*.csv
+*.csv.bak
+*.pkl
+*.json
+*.log
+*.db
+
+# ===========================
+# Generated figures
+# ===========================
+*.png
+*.pdf
+
+# ===========================
+# Run artifacts
+# ===========================
+/results/
+/outputs/
+/figures/
+/notebooks/__pycache__/
+
+# ===========================
+# IDE / OS clutter
+# ===========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===========================
+# Environments and secrets
+# ===========================
+.env
+.venv/
+env/
+venv/
+*.env
+*.token
+
+# ===========================
+# LaTeX build files
+# ===========================
+latex/*.aux
+latex/*.log
+latex/*.out
+latex/*.toc
+latex/*.pdf
